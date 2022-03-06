@@ -1,14 +1,21 @@
 import React from "react";
+import styled from "styled-components";
+
 import "./App.css";
+import { InputContents } from "./InputContents";
 
 function App() {
-  const num: Number = 1;
-  console.log(num);
   return (
     <div className="App">
-      <p>Hello world</p>
+      <Container>
+        <InputContents></InputContents>
+      </Container>
     </div>
   );
 }
+
+export const Container = styled.div`
+  padding: 30px;
+`;
 
 export default App;
