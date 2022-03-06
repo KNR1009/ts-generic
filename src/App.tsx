@@ -2,13 +2,15 @@ import React from "react";
 import styled from "styled-components";
 
 import "./App.css";
-import { InputContents } from "./InputContents";
+import { Generics } from "./Generics";
+// import { InputContents } from "./InputContents";
 
 function App() {
   return (
     <div className="App">
       <Container>
-        <InputContents></InputContents>
+        <Generics></Generics>
+        {/* <InputContents></InputContents> */}
       </Container>
     </div>
   );
