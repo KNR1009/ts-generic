@@ -1,16 +1,14 @@
-import React from "react";
+// import React, { useCallback, useState } from "react";
 import styled from "styled-components";
 
 import "./App.css";
 import { Generics } from "./Generics";
-// import { InputContents } from "./InputContents";
 
 function App() {
   return (
     <div className="App">
       <Container>
         <Generics></Generics>
-        {/* <InputContents></InputContents> */}
       </Container>
     </div>
   );
